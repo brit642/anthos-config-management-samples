@@ -18,9 +18,9 @@ metadata:
   name: config-management
   namespace: config-management-system
 spec:
-  clusterName: my-cluster
+  clusterName: cluster-1
   git:
-    syncRepo: git@github.com:<GITHUB-USERNAME>/anthos-config-management-samples.git
+    syncRepo: git@github.com:brit642/anthos-config-management-samples.git
     syncBranch: main
     secretType: ssh
     policyDir: "hello-namespace/config-root"
